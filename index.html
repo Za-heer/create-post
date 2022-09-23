@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- create post -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="shadow rounded">
+                    <form class="form ">
+                        <div class="row m-2 ">
+                            <h2 class="text-center m-2">Create Post</h2>
+                            <hr>
+                            <div class="col-6 mt-4">
+                                <input type="text" class="form-control shadow" placeholder="Name"
+                                    aria-label="First name" id="name">
+                            </div>
+                            <div class="col-6 mt-4">
+                                <input type="text" class="form-control shadow" placeholder="Post title"
+                                    aria-label="Last name" id="postTitle">
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col-6">
+                                <input type="file" class="form-control shadow" aria-label="Upload" id="image">
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col-12 ">
+                                <textarea class="form-control shadow" placeholder="Post Description" id="discription" style="height: 100px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col-12 mb-4">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button" id="btn" onclick="post()">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+<!-- post created -->
+<div id="container">
+        
+</div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

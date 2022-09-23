@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.avatar{
+    width: 45px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+/* .boxImg{
+    width: 350px;
+} */
